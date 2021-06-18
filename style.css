@@ -1,0 +1,331 @@
+/* Página completa */
+body {
+    background: url("https://i0.wp.com/www.emotioncard.com.br/wp-content/uploads/2019/04/background-wallpaper-preto.jpg?fit=696%2C435&ssl=1");
+}
+.corpo {
+    background: rgb(122, 120, 120);
+    padding-bottom: 10px;
+    color: whitesmoke;
+} 
+
+/* Cabeçalho */
+.header {
+    margin-bottom: 10px;
+}
+.navbar {
+    border-radius: 15px;
+    padding: 15px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.navbar-nav {
+    align-items: center;
+}
+/* Lançamentos */
+.titulo-area {
+    margin: 0px auto;
+    text-align: center;
+}
+.titulo-lancamento {
+    text-align: center;
+    margin: 10px auto;
+    background: rgb(66, 56, 58);
+    border-radius: 10px;
+    display: inline-block;
+    align-items: center;
+    padding: 5px;
+}
+.carousel-inner {
+    margin: 15px;
+}
+.carousel-item {
+    width: 80%;
+    margin-left: 100px;
+}
+.lancamento-area {
+    background: rgb(66, 58, 58);
+    border-radius: 15px;
+}
+.trailer iframe {
+    border-radius: 20px;
+}
+
+/* Destaques */
+.destaque-area {
+    margin-top: 10px;
+}
+.titulo-destaque {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.destaque-cards img {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.destaque-cards img:hover {
+    border: 3px solid white;
+}
+
+.area-botao button {
+    margin-top: 25px;
+    margin-left: 380px;
+}
+.botao-inferior {
+    margin: 20px 10px 20px 1085px;
+}
+.botao-inferior-avaliacoes {
+    margin: 20px 10px 20px 870px;
+}
+
+/* Últimas avaliações */
+.avaliacoes-title {
+    margin: 20px;
+}
+.card-area {
+    background: rgb(66, 58, 58);
+    margin: 5px;
+    border-radius: 15px;
+}
+.logo-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.logo-div {
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+.card-texto {
+    padding: 10px 15px 10px 0px;
+    margin: 0px;
+}
+.card-texto h3 {
+    margin-top: 20px;
+}
+
+.botao-inferior-avaliacoes button {
+    margin-left: 185px;
+}
+
+/* Entrevistas e Making Of */
+.entrevistas-area {
+    background: rgb(66, 58, 58);
+    border-radius: 15px;
+}
+.videos-area iframe {
+    width: 350px;
+    height: 250px; 
+}
+.botao-inferior-entrevistas {
+    margin: 20px 10px 20px 1050px;
+}
+.info-area div p {
+    margin: 0px;
+}
+
+/* Novidades e Sobre */
+.novidades-area {
+    padding-bottom: 10px;
+}
+.novidades-area h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.materia-area img {
+    width: 230px;
+    height: 150px;
+}
+.tags {
+    text-decoration: none;
+    background: rgb(66, 58, 58);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.creditos img {
+    margin: 5px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.creditos p {
+    display: inline;
+}
+.social {
+    margin-top: 10px;
+}
+.social h5 {
+    margin-bottom: 15px;
+}
+.social a {
+    margin: 10px;
+    background: whitesmoke;
+    padding: 10px 10px 15px 10px;
+    border-radius: 30px;
+}
+.linha {
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+/* Página Pesquisa */
+.botao-pesquisa {
+    color: white;
+}
+
+.botao-pesquisa:hover {
+    color: rgb(158, 150, 152);
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.logo-footer {
+    width: 60px;
+    height: 60px;
+}
+.footer-text p {
+    margin-top: 15px;
+}
+
+/* Media Querys */
+@media screen and (max-width:500px) {
+    .carousel-item {
+        width: 80%;
+        margin-left: 25px;
+    }
+    .destaque-cards img {
+        width: 250px;
+        height: 350px;
+        border-radius: 15px;
+        margin-left: 40px;
+    }
+    .card {
+        display: none;
+    }
+    .area-botao button {
+        margin-right: 10px;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .botao-inferior {
+        margin: 10px 75px;
+    }
+    .botao-inferior-avaliacoes {
+        margin: 10px 0px 10px 60px;
+    }
+    .card3 {
+        display: none;
+    }
+    .videos-area iframe {
+        width: 310px;
+        height: 250px; 
+    }
+    .entrevista3 {
+        display: none;
+    }
+    .botao-inferior-entrevistas {
+        margin: 10px 0px 10px 60px;
+    }
+    .div-entrevista {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .materia-area img {
+        margin-bottom: 10px;
+    }
+    .logo-footer {
+        margin-left: 135px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:820px) {
+    .carousel-item {
+        width: 80%;
+        margin-left: 55px;
+    }
+    .destaque-cards img {
+        width: 320px;
+        height: 500px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .area-botao button {
+        margin: 20px 0px 0px 100px;
+    }
+    .botao-inferior {
+        margin-left: 470px;
+    }
+    .botao-inferior-avaliacoes {
+        margin: 10px 0px 10px 450px;
+    }
+    .videos-area iframe {
+        width: 320px;
+        height: 250px; 
+    }
+    .card3 {
+        display: none;
+    }
+    .entrevista3 {
+        display: none;
+    }
+    .botao-inferior-entrevistas {
+        margin: 10px 0px 10px 450px;
+    }
+    .imagem-div img {
+        width: 210px;
+    }
+}
+
+@media screen and (min-width:821px) and (max-width:1200px) {
+    .carousel-item {
+        width: 80%;
+        margin-left: 70px;
+    }
+    .destaque-cards img {
+        width: 210px;
+        height: 300px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .area-botao button { 
+        margin: 30px 0px 0px 200px;
+    }
+    .botao-inferior {
+        margin: 10px 0px 10px 720px;
+    }
+    .botao-inferior-avaliacoes {
+        margin: 10px 0px 20px 690px;
+    }
+    .botao-inferior-entrevistas {
+        margin: 10px 0px 20px 690px;
+    }
+    .videos-area iframe {
+        width: 280px;
+        height: 200px; 
+    }
+    .botao-inferior-entrevistas {
+        margin: 15px 0px 15px 680px;
+    }
+    .imagem-div img {
+        width: 200px;
+        height: 140px;
+        margin-top: 17px;
+    }
+}
